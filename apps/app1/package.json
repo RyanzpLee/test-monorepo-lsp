@@ -1,0 +1,36 @@
+{
+    "name": "@ryan/app1",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "start": "node dist/server/server.js"
+    },
+"dependencies": {
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-hot-loader": "4.12.21",
+    "react-redux": "7.2.0",
+    "react-router": "5.1.2",
+    "react-router-dom": "5.1.2",
+    "redux": "4.0.5",
+    "smoothscroll-polyfill": "0.4.4",
+    "styled-components": "4.3.2",
+    "three": "0.130.1",
+    "tls": "0.0.1",
+    "tunnel": "0.0.6",
+    "uuid": "8.3.0",
+    "xstate": "4.16.0"
+},
+"devDependencies": {
+    "jest-cucumber": "3.0.1",
+    "waait": "1.0.5",
+    "jest-playwright-preset": "1.7.0",
+    "jest-html-reporters": "2.1.6",
+    "playwright": "1.19.0"
+},
+"peerDependencies": {
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-router-dom": "5.1.2"
+}
+}
